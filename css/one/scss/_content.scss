@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 5 1 30rem;
+    &__article {
+        border-bottom: 2px solid $gray;
+        &:last-child {
+            border:none;
+        }
+    }
+}
+
+

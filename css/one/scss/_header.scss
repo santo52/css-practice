@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: $blue;
+
+    > * {
+        margin-right: 1rem;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__logo {
+        background: $black;
+        color: $white;
+        padding: 0 .3rem;
+        width: 2rem;
+        height: 2rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

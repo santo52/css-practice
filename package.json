@@ -1,0 +1,28 @@
+{
+  "name": "css-practice",
+  "version": "1.0.0",
+  "description": "css practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.32.1",
+    "webpack-cli": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santo52/css-practice.git"
+  },
+  "author": "Santiago Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santo52/css-practice/issues"
+  },
+  "homepage": "https://github.com/santo52/css-practice#readme"
+}

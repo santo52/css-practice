@@ -1,0 +1,20 @@
+.aside {
+    background: $light-orange;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-width: 15rem;
+    min-height: 20rem;
+
+    &__item {
+        background: $orange;
+        flex-grow: 1;
+        margin-bottom: 1rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
