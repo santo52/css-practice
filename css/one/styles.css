@@ -1,0 +1,6 @@
+@import '../global.css';
+@import 'base.css';
+@import 'header.css';
+@import 'aside.css';
+@import 'content.css';
+@import 'footer.css';

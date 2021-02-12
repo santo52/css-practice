@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 5 1 30rem;
+}
+
+.content__article {
+    border-bottom: 2px solid var(--gray)
+}
+
+.content__article:last-child {
+    border:none;
+}
+
