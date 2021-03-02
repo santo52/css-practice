@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/santo52/css-practice/issues"
   },
-  "homepage": "https://github.com/santo52/css-practice#readme"
+  "homepage": "https://github.com/santo52/css-practice#readme",
+  "dependencies": {
+    "file-loader": "^6.2.0"
+  }
 }

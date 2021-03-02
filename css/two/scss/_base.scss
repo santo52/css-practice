@@ -9,3 +9,38 @@ $purple: #7D29E8;
 $cyan: #00C4CC;
 
 $container-padding: 2rem;
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: .7rem 1rem;
+    font-weight: bold;
+
+    &:focus {
+        outline: none;
+    }
+
+    &--gray {
+        background: $light-gray;
+    }
+
+    &--purple {
+        background: $purple;
+        color: $white
+    }
+}
+
+input {
+    border: 2px solid $medium-gray;
+    border-radius: .3rem;
+    padding: .5rem;
+    &:focus {
+        outline: 0;
+    }
+
+    &[type=search] {
+        padding-left: 2rem;
+    }
+}
